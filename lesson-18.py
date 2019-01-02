@@ -1,5 +1,14 @@
 #!/usr/bin/env python3
 
+# lesson-18.py - show starting and running balance with transactions
+#
+# Learn:
+#     list assignment to variables (spread?)
+#     format string field
+#     format field left alignment
+#     tuple as operand for format operator
+#     use of second variable to save initial value
+
 def showBalance():
     global balance
     print('Your balance is $%d.' % balance)
