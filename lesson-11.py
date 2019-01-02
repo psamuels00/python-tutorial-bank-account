@@ -1,5 +1,15 @@
 #!/usr/bin/env python3
 
+# lesson-11.py - add error checking for each prompt
+#
+# Learn:
+#     error checking
+#     syntax errors
+#     exception handling
+#     continue statement to skip rest of loop
+#     inequality comparison
+#     "and" logical operator
+
 def showBalance():
     global balance
     print('Your balance is $%d.' % balance)
