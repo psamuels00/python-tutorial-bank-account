@@ -1,5 +1,15 @@
 #!/usr/bin/env python3
 
+# lesson-22.py - make balance an instance member and instantiate the class
+#
+# Learn:
+#     class instantiation
+#     objects and object-oriented programming
+#     the class constructor
+#     instance members and access to them
+#     the self reference
+#     passing objects as parameters
+
 import sys
 
 class Account:
