@@ -1,5 +1,12 @@
 #!/usr/bin/env python3
 
+# lesson-12.py - add semantic error checking for transaction
+#
+# Learn:
+#     semantic errors
+#     ordering comparison
+#     single-quotes vs double-quotes
+
 def showBalance():
     global balance
     print('Your balance is $%d.' % balance)
