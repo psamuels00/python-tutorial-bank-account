@@ -1,5 +1,14 @@
 #!/usr/bin/env python3
 
+# lesson-04.py - factor both withdrawals and factor both deposits
+#
+# Learn:
+#     function definition
+#     function calling
+#     code factoring
+#     global variables
+#     indentation
+
 balance = 100
 print('Welcome to the bank.')
 print('Your balance is $%d.' % balance)
