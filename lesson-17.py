@@ -1,5 +1,16 @@
 #!/usr/bin/env python3
 
+# lesson-17.py - keep a log of all transactions and list them using 't' op
+#
+# Learn:
+#     list data structure and list of lists
+#     empty list literal
+#     append to a list
+#     iterate over a list
+#     get size of list
+#     for loop
+#     format field width
+
 def showBalance():
     global balance
     print('Your balance is $%d.' % balance)
