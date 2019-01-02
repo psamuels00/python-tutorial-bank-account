@@ -1,0 +1,60 @@
+for '0.00' accumul8 sum, sum = 0.0000000000, 0.00
+for '0.00' truncate sum, sum = 0.0000000000, 0.00
+
+for '0.01' accumul8 sum, sum = 999.9999999992, 1000.00
+for '0.01' truncate sum, sum = 1000.0000000000, 1000.00
+
+for '0.02' accumul8 sum, sum = 1999.9999999985, 2000.00
+for '0.02' truncate sum, sum = 2000.0000000000, 2000.00
+
+for '0.03' accumul8 sum, sum = 3000.0000000047, 3000.00
+for '0.03' truncate sum, sum = 3000.0000000000, 3000.00
+
+for '0.04' accumul8 sum, sum = 3999.9999999969, 4000.00
+for '0.04' truncate sum, sum = 4000.0000000000, 4000.00
+
+for '0.05' accumul8 sum, sum = 5000.0000000094, 5000.00
+for '0.05' truncate sum, sum = 5000.0000000000, 5000.00
+
+for '0.06' accumul8 sum, sum = 6000.0000000095, 6000.00
+for '0.06' truncate sum, sum = 6000.0000000000, 6000.00
+
+for '0.07' accumul8 sum, sum = 6999.9999999921, 7000.00
+for '0.07' truncate sum, sum = 7000.0000000000, 7000.00
+
+for '0.08' accumul8 sum, sum = 7999.9999999939, 8000.00
+for '0.08' truncate sum, sum = 8000.0000000000, 8000.00
+
+for '0.09' accumul8 sum, sum = 9000.0000000104, 9000.00
+for '0.09' truncate sum, sum = 9000.0000000000, 9000.00
+
+for '0.10' accumul8 sum, sum = 10000.0000000188, 10000.00
+for '0.10' truncate sum, sum = 10000.0000000000, 10000.00
+
+for '0.11' accumul8 sum, sum = 11000.0000000042, 11000.00
+for '0.11' truncate sum, sum = 11000.0000000000, 11000.00
+
+for '0.12' accumul8 sum, sum = 12000.0000000189, 12000.00
+for '0.12' truncate sum, sum = 12000.0000000000, 12000.00
+
+for '0.13' accumul8 sum, sum = 12999.9999999764, 13000.00
+for '0.13' truncate sum, sum = 13000.0000000000, 13000.00
+
+for '0.14' accumul8 sum, sum = 13999.9999999842, 14000.00
+for '0.14' truncate sum, sum = 14000.0000000000, 14000.00
+
+for '0.15' accumul8 sum, sum = 14999.9999999753, 15000.00
+for '0.15' truncate sum, sum = 15000.0000000000, 15000.00
+
+for '0.16' accumul8 sum, sum = 15999.9999999878, 16000.00
+for '0.16' truncate sum, sum = 16000.0000000000, 16000.00
+
+for '0.17' accumul8 sum, sum = 17000.0000000001, 17000.00
+for '0.17' truncate sum, sum = 17000.0000000000, 17000.00
+
+for '0.18' accumul8 sum, sum = 18000.0000000209, 18000.00
+for '0.18' truncate sum, sum = 18000.0000000000, 18000.00
+
+for '0.19' accumul8 sum, sum = 18999.9999999963, 19000.00
+for '0.19' truncate sum, sum = 19000.0000000000, 19000.00
+

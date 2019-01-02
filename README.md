@@ -23,6 +23,7 @@ A simple transaction list might look like this:
    withdraw       25.00      165.01
 ```
 
+
 Requirements
 ------------
 
@@ -36,6 +37,7 @@ It has a built in shell and debugger for running your scripts, as well as many o
 This tutorial is not complete as-is.  You will need an experienced programmer
 to explain the concepts that are to be learned for each lesson.
 
+
 Bank Account
 ------------
 
@@ -43,6 +45,7 @@ The `bank_account.py` file contains all the lessons in its revision history.  It
 as `lesson-26.py` except that it is missing the comments at top.  Since this file was updated
 incrementally to reflect the latest lesson as it was added to the repository, you can easily
 see what has changed by looking at the commit differences for this file.
+
 
 Lessons Summary
 ---------------
@@ -286,8 +289,36 @@ Use set to validate op.
 * string expansion
 
 
-Lessons Summary Generation
---------------------------
+Floating Point Calculations
+---------------------------
+
+The file `float_error/test.py` is included to demonstrate the challenges of floating point
+calculations.  The file `float_error/output.txt` contains the output of running this.
+
+
+Errata
+------
+
+### Lessons Summary Generation
 
     grep '^#' *.py | cut -d'#' -f2 | cut -c2- | grep -v '^Learn:' | perl -pe 's|/usr/bin/env python3||; s|(lesson-(..).py - )(.*)|sprintf qq(### Lesson %d\n\n%s.), $2, ucfirst($3)|e; s|^    |* |'
 
+
+### Commit and Tag All Lessons
+
+    update_lesson() {
+        n=$1
+        cat lesson-$n.py | sed '3,/^$/ d' > bank-account.py
+        git add lesson-$n.py bank-account.py
+        git commit -m "add lesson $n"
+        git tag lesson-$n
+    }
+
+    for x in {0..26}; do
+        x=`printf '%02d' $x`
+        echo $x
+        update_lesson $x
+    done
+
+    git push
+    git push --tags
