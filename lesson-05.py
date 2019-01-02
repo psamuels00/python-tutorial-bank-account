@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
 
+# lesson-05.py - factor show balance
+#
+# Learn:
+#     more factoring
+
 def showBalance():
     global balance
     print('Your balance is $%d.' % balance)
