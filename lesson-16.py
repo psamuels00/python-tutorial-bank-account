@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
 
+# lesson-16.py - rename 'type' to 'op' for operator
+#
+# Learn:
+#     the importance of naming
+#     identifiers sometimes need to change as code evolves
+
 def showBalance():
     global balance
     print('Your balance is $%d.' % balance)
