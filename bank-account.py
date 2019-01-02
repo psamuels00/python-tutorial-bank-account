@@ -1,3 +1,5 @@
 #!/usr/bin/env python3
 
-print('Hello, world.')
+balance = 100
+print('Welcome to the bank.')
+print('Your balance is $%d.' % balance)
