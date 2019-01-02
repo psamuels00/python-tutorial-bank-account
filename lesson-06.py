@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
 
+# lesson-06.py - reorder code to group functions
+#
+# Learn:
+#     code reorg: functions first
+#     function with no arguments
+
 def showBalance():
     global balance
     print('Your balance is $%d.' % balance)
