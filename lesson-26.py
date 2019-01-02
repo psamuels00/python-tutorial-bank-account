@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
 
+# lesson-26.py - use set to validate op
+#
+# Learn:
+#     set data structure and set inclusion
+#     string expansion
+
 import re
 import sys
 
