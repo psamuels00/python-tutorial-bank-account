@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
 
+# lesson-13.py - flatten the logic in main()
+#
+# Learn:
+#     code reorg: reduce nesting
+
 def showBalance():
     global balance
     print('Your balance is $%d.' % balance)
