@@ -1,5 +1,14 @@
 #!/usr/bin/env python3
 
+# lesson-14.py - refactor again and simplify main()
+#
+# Learn:
+#     None object
+#     is operator
+#     pass statement
+#     else-if clause of conditional statement
+#     "not" logical operator
+
 def showBalance():
     global balance
     print('Your balance is $%d.' % balance)
