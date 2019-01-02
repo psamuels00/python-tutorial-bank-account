@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
 
+# lesson-09.py - have only 1 transaction, but allow user to determine which type
+#
+# Learn:
+#     string input and equality comparison
+#     conditional statement with else clause (branching)
+
 def showBalance():
     global balance
     print('Your balance is $%d.' % balance)
