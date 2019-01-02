@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
 
+# lesson-20.py - eliminate global variable by passing around balance
+#
+# Learn:
+#     avoid globals by passing variables
+#     keep global space unpolluted
+
 import sys
 
 def showBalance(balance):
