@@ -33,6 +33,16 @@ Requirements
 PyCharm is an excellent choice of an IDE to use.  The Community Edition is free.
 It has a built in shell and debugger for running your scripts, as well as many other features.
 
+This tutorial is not complete as-is.  You will need an experienced programmer
+to explain the concepts that are to be learned for each lesson.
+
+Bank Account
+------------
+
+The `bank_account.py` file contains all the lessons in its revision history.  It is the same
+as `lesson-26.py` except that it is missing the comments at top.  Since this file was updated
+incrementally to reflect the latest lesson as it was added to the repository, you can easily
+see what has changed by looking at the commit differences for this file.
 
 Lessons Summary
 ---------------
