@@ -1,5 +1,13 @@
 #!/usr/bin/env python3
 
+# lesson-21.py - create Account class with static balance member instead of passing around
+#
+# Learn:
+#     class definition
+#     static (class) members and access to them
+#     variable and method members
+#     another way to avoid globals
+
 import sys
 
 class Account:
