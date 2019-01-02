@@ -1,5 +1,18 @@
 #!/usr/bin/env python3
 
+# lesson-23.py - use float for amounts instead of int; update error checking and output format
+#
+# Learn:
+#     float literal
+#     string conversion to float
+#     format float field
+#     format field precision
+#     prevent accumulation error
+#     the regular expression module and re pattern matching
+#     raise an exception
+#     distinguish different types of exception (ValueError, Exception)
+#     how diligent you must be with floats
+
 import re
 import sys
 
