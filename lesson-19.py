@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
 
+# lesson-19.py - get starting account balance from command line argument, including error handling
+#
+# Learn:
+#     module import and the sys module
+#     access to program arguments
+
 import sys
 
 def showBalance():
