@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
 
+# lesson-15.py - fix bug
+#
+# Learn:
+#     the importance of initializing reused variables sometimes
+#     why testing is important
+
 def showBalance():
     global balance
     print('Your balance is $%d.' % balance)
