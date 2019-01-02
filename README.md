@@ -299,12 +299,12 @@ calculations.  The file `float_error/output.txt` contains the output of running 
 Errata
 ------
 
-### Lessons Summary Generation
+#### Lessons Summary Generation
 
     grep '^#' *.py | cut -d'#' -f2 | cut -c2- | grep -v '^Learn:' | perl -pe 's|/usr/bin/env python3||; s|(lesson-(..).py - )(.*)|sprintf qq(### Lesson %d\n\n%s.), $2, ucfirst($3)|e; s|^    |* |'
 
 
-### Commit and Tag All Lessons
+#### Commit and Tag All Lessons
 
     update_lesson() {
         n=$1
