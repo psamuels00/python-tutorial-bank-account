@@ -1,5 +1,18 @@
 #!/usr/bin/env python3
 
+# lesson-25.py - add name to account, create multiple instances of account and test transactions
+#
+# Learn:
+#     testing
+#     instrumenting code to assist with testing
+#     multiple instantiation of a class
+#     default parameter value
+#     program startup flag
+#     program exit code
+#
+# automate from the command line, for example:
+#     printf "w\n.02\nd\n125.32\nw\n100\nd\n1\nt\nq\n" | ./take-25.py 100.01; echo
+
 import re
 import sys
 
