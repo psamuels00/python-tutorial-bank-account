@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
 
+# lesson-24.py - clean up and refactor more
+#
+# Learn:
+#     more refactoring
+#     re-raise an exception
+
 import re
 import sys
 
