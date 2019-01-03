@@ -15,7 +15,7 @@ with the following features:
 A simple transaction list might look like this:
 
 ```
-   op       amount     balance
+      op       amount     balance
    --------  ----------  ----------
                               50.00  (starting)
    deposit        15.00       65.00

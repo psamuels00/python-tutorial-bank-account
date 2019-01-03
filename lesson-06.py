@@ -4,7 +4,6 @@
 #
 # Learn:
 #     code reorg: functions first
-#     function with no arguments
 
 def showBalance():
     global balance

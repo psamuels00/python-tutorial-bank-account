@@ -50,7 +50,7 @@ def main():
     showBalance()
 
     while True:
-        amount = None   # <--- needed in case amount gets set on one iteration and then user supplies invalid type on next iteration
+        amount = None   # <--- needed in case user supplies invalid type
         type = getType()
         if type == 'q':
             break

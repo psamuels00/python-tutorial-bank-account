@@ -37,13 +37,13 @@ def main():
             break
         elif type != 'd' and type != 'w':
             print('Invalid type.  Please try again.')
-            continue;
+            continue
         else:
             try:
                 amount = int(input('Enter amount: '))
             except:
                 print('Invalid amount.  Please try again.')
-                continue;
+                continue
 
         if type == 'd':
             deposit(amount)
