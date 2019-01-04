@@ -4,7 +4,7 @@
 #
 # Learn:
 #     more factoring
-#     function with no arguments
+#     function definition with no arguments
 
 def showBalance():
     global balance

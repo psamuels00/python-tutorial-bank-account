@@ -83,6 +83,7 @@ Welcome to the bank and show account balance.
 Show a $10 withdrawal and a $20 deposit.
 
 * print empty line
+* function call with no arguments
 * compound assignment operators
 
 #### Lesson 3
@@ -106,13 +107,13 @@ Factor both withdrawals and factor both deposits.
 Factor show balance.
 
 * more factoring
+* function definition with no arguments
 
 #### Lesson 6
 
 Reorder code to group functions.
 
 * code reorg: functions first
-* function with no arguments
 
 #### Lesson 7
 

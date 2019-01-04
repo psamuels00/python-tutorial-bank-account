@@ -4,6 +4,7 @@
 #
 # Learn:
 #     print empty line
+#     function call with no arguments
 #     compound assignment operators
 
 balance = 100
