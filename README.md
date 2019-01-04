@@ -61,10 +61,11 @@ as a guide when you get stuck.
 
 Print hello world.
 
-* print statement
-* string literal
 * shebang line
 * single-line comments
+* string literal
+* print statement
+* function and function call
 
 #### Lesson 1
 
@@ -75,6 +76,7 @@ Welcome to the bank and show account balance.
 * assignment operator
 * format operator
 * format integer field
+* expression
 
 #### Lesson 2
 

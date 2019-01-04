@@ -3,9 +3,10 @@
 # lesson-00.py - print hello world
 #
 # Learn:
-#     print statement
-#     string literal
 #     shebang line
 #     single-line comments
+#     string literal
+#     print statement
+#     function and function call
 
 print('Hello, world.')

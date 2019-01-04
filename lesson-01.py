@@ -8,6 +8,7 @@
 #     assignment operator
 #     format operator
 #     format integer field
+#     expression
 
 balance = 100
 print('Welcome to the bank.')
