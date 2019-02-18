@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-# list-operations.py - summary of basic list operations
+# lesson-16_5-list-operations.py - summary of basic list operations
 #
 # Learn:
 #     create a list of simple elements
