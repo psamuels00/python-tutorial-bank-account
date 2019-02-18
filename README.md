@@ -304,7 +304,7 @@ Add name to account, create multiple instances of account and test transactions.
 * program exit code
 
 automate from the command line, for example:
-* printf "w\n.02\nd\n125.32\nw\n100\nd\n1\nt\nq\n" | ./take-25.py 100.01; echo
+* printf "w\n.02\nd\n125.32\nw\n100\nd\n1\nt\nq\n" | ./lesson-25.py 100.01; echo
 
 #### Lesson 26
 
