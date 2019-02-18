@@ -326,8 +326,9 @@ Errata
 
 #### Lessons Summary Generation
 
-    grep '^#' *.py | cut -d'#' -f2 | cut -c2- | grep -v '^Learn:' | perl -pe 's|/usr/bin/env python3||; s|(lesson-(..).py - )(.*)|sprintf qq(### Lesson %d\n\n%s.), $2, ucfirst($3)|e; s|^    |* |'
+    grep '^#' lesson-??.py | cut -d'#' -f2 | cut -c2- | grep -v '^Learn:' | perl -pe 's|/usr/bin/env python3||; s|(lesson-(..).py - )(.*)|sprintf qq(### Lesson %d\n\n%s.), $2, ucfirst($3)|e; s|^    |* |'
 
+This works for all the lessons except the hacky 16.5 (List Operations) for which the summary must be generated manually.
 
 #### Commit and Tag All Lessons
 
