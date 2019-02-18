@@ -2,6 +2,8 @@ Python Tutorial - Bank Account
 ==============================
 
 This tutorial was designed for an absolute beginner to learn about programming using Python.
+In addition to teaching the basics of Python, there is a heavy emphasis on factoring and
+refactoring as is common in the real world.
 The first lesson starts off very simple.  With each subsequent lesson, we add a feature or
 improve the code one step at a time so that by the end, we have a small Bank Account program
 with the following features:
@@ -192,6 +194,26 @@ Rename 'type' to 'op' for operator.
 
 * the importance of naming
 * identifiers sometimes need to change as code evolves
+
+#### Lesson 16.5 - List Operations
+
+Summary of basic list operations.  *This lesson was hacked in after the tutorial was
+completed to address the big jump to lists and lists of lists in Lesson 17.*
+
+* create a list of simple elements
+* display a list
+* create an empty list
+* append an element to a list
+* display number of elements in a list
+* display specific elements of a list
+* display last element of a list
+* iterate over a list
+* create a list of mixed element types
+* create a list of lists
+* display specific elements of a list of lists
+* display number of elements in a list inside a list
+* display specific elements of a list inside a list
+* iterate over a list of lists
 
 #### Lesson 17
 
