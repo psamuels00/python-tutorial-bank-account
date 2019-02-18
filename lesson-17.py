@@ -22,10 +22,12 @@ def showTransactions():
         print('Transactions')
         print('----------------')
         for transaction in transactions:
-            if transaction[0] == 'w':
-                print('withdraw %7d' % transaction[1])
+            type = transaction[0]
+            amount = transaction[1]
+            if type == 'w':
+                print('withdraw %7d' % amount)
             else:
-                print('deposit  %7d' % transaction[1])
+                print('deposit  %7d' % amount)
         print()
     else:
         print('There are no transactions yet.')
